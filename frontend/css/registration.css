@@ -1,0 +1,107 @@
+
+#mainContainer{
+    display:flex;
+    height: calc(100dvh - 90px);
+    gap:15px;
+    width:100%;
+}
+
+.bannerDisplay{
+    display:flex;
+    flex-direction: column;
+    width:30%;
+    justify-content: center;
+    align-content: center;
+}
+.banner{
+    height: 92%;
+    width:92%;
+    /* border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px; */
+    border-radius: 24px;
+    border-style:double;
+    border-color: bisque;
+    border-width: 8px;
+    align-self: center;
+    object-fit: cover;
+}
+
+#registerSection{
+    display:flex;
+    flex-direction: column;
+    width:50%;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#registerMenu{
+    display:flex;
+    flex-direction: column;
+    height: 60%;
+    width: 50%;
+    gap:40px;
+}
+
+#registerOptions{
+    display:flex;
+    justify-content: space-evenly;
+    padding:8px;
+}
+#registerOptions button{
+    background:none;
+    border: none;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: bisque;
+    width:50%;
+    cursor: pointer;
+}
+#registerOptions button:hover{
+    border-bottom-color: goldenrod;
+}
+
+#registerInfo{
+    display:flex;
+    justify-content: center;
+}
+#registerInfo form{
+    display:flex;
+    flex-direction: column;
+    width:95%;
+    gap:30px;
+}
+.registerInput{
+    display:flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:gray;
+    gap:5px;
+}
+#registerInfo input{
+    height:50px;
+    border-radius: 8px;
+    border-style:solid;
+    border-color:lightgray;
+    font-size: large;
+}
+#registerInfoSubmit{
+    background-color: orange;
+    border:none;
+    border-radius: 5px;
+    height:60px;
+    width:85%;
+    align-self: center;
+    cursor: pointer;
+    margin-top:20px;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#registerInfoSubmit:hover{
+transform: scale(1.05);
+}

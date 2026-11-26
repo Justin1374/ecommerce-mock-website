@@ -1,0 +1,56 @@
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left:15px;
+    padding-right:15px;
+    background-color: cornsilk;
+    height:90px;
+}
+.headerSection{
+    display:flex;
+    width:400px;
+    align-items: center;
+}
+
+#brandingSection{
+    display:flex;
+}
+#websiteTitle{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    
+}
+
+#navSection{
+    display:flex;
+    gap:40px;
+    justify-content: center;
+}
+
+#userSection{
+    display:flex;
+    gap:25px;
+    justify-content: flex-end;
+}
+
+.navBtn{
+    border:solid;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    width:90px;
+    height:27px;
+}
+.navBtn:hover{
+    background-color: rgb(255, 211, 169);
+    transform: scale(1.1);
+}
+.navBtn:active {
+  /* Optional: slightly shrinks the button when clicked for tactile feedback */
+  transform: scale(0.97);
+}

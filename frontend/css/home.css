@@ -1,0 +1,60 @@
+
+#homeBannerSlideshow{
+    display: flex;
+    justify-content: center;
+    height:550px;
+    width:100%;
+}
+#homeBannerImg{
+    width:100%;
+    height:100%;
+}
+#homeMainText{
+    display:flex;
+    flex-direction: column;
+    position:absolute;
+    align-self: center;
+    width:500px;
+    height: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center
+}
+#splashText{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+    font-weight: bold;
+    margin:0;
+}
+#shopDescription{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.6rem;
+}
+#openShopHomeBtn{
+    background-color:rgb(255, 211, 169);
+    width:350px;
+    height:55px;
+    border-style: inset;
+    border-color: orange;
+    border-width: 5px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+#openShopHomeBtn:hover{
+    transform: scale(1.1);
+}
+
+#shopFeatures{
+    display: flex;
+    justify-content: space-between;
+    border-top-style: solid;
+    height:100%;
+    padding-left:60px;
+    padding-right:60px;
+}
+.featureBox{
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+
+}
