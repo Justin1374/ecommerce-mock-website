@@ -7,16 +7,178 @@
     <title>Store Name</title>
 
     <link rel="stylesheet" href="../css/global.css">
-    <link rel="stylesheet" href="../css/registration.css">
+    <link rel="stylesheet" href="../css/catalog.css">
     <link rel="stylesheet" href="../css/header.css">
     <script src="../js/header.js"></script>
 </head>
 
 <body>
-<div id="topSection">
+    <div id="mainContainer">
 
-</div>
-    
+        <div id="topSection">
+            <p id="searchTitle">Browse Our Selection</p>
+            <div id="searchContainer">
+                <input id="searchBar" type="text" placeholder="Search products">
+            </div>
+        </div>
+
+        <div id="resultsSection">
+            <div id="filterMenu">
+                <p>Filter By</p>
+                <div id="filterSectionContainer">
+                    <div class="filterSection" id="categoryFilters">
+                        <p>Category</p>
+                        <label>
+                            <input type="checkbox" value="Headwear">
+                            Headwear
+                        </label>
+
+                        <label>
+                            <input type="checkbox" value="Sweaters">
+                            Sweaters
+                        </label>
+
+                        <label>
+                            <input type="checkbox" value="Tops">
+                            Tops
+                        </label>
+
+                        <label>
+                            <input type="checkbox" value="Pants">
+                            Pants
+                        </label>
+
+                        <label>
+                            <input type="checkbox" value="Accessories">
+                            Accessories
+                        </label>
+                    </div>
+
+                    <div class="filterSection" id="brandFilters">
+                        <p>Brand</p>
+                        <label>
+                            <input type="checkbox" value="Headwear">
+                            Brand1
+                        </label>
+
+                        <label>
+                            <input type="checkbox" value="Sweaters">
+                            Brand2
+                        </label>
+
+                        <label>
+                            <input type="checkbox" value="Tops">
+                            Brand3
+                        </label>
+                    </div>
+
+                    <div class="filterSection" id="priceFilters">
+                        <p>Price</p>
+                        <input id="minPrice" type="range">
+                        <input id="maxPrice" type="range">
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="resultView">
+                <div id="resultViewHeader">
+                    <p id="searchQueryDisplay">Search Results</p>
+                    <select id="priceSort">
+                        <option>Price: Low to High</option>
+                        <option>Price: High to Low</option>
+                    </select>
+                </div>
+                <div id="results" class="customScroll">
+
+                    <div class="resultCard">
+                        <div class="cardImgContainer">
+                            <img class="productImg" src="../resources/images/productImg/blueHoodie.png">
+                        </div>
+                        <div class="cardInfoContainer">
+                            <p class="productTitle">Title</p>
+                            <p class="productPrice">$0.00</p>
+                            <p class="productBrand">Brand</p>
+                        </div>
+                    </div>
+                    <div class="resultCard">
+                        <div class="cardImgContainer">
+                            <img class="productImg" src="../resources/images/productImg/greenSweater.png">
+                        </div>
+                        <div class="cardInfoContainer">
+                            <p class="productTitle">Title</p>
+                            <p class="productPrice">$0.00</p>
+                            <p class="productBrand">Brand</p>
+                        </div>
+                    </div>
+                    <div class="resultCard">
+                        <div class="cardImgContainer">
+                            <img class="productImg" src="../resources/images/productImg/greySweater.png">
+                        </div>
+                        <div class="cardInfoContainer">
+                            <p class="productTitle">Title</p>
+                            <p class="productPrice">$0.00</p>
+                            <p class="productBrand">Brand</p>
+                        </div>
+                    </div>
+                    <div class="resultCard">
+                        <div class="cardImgContainer">
+                            <img class="productImg" src="../resources/images/productImg/greenSweater.png">
+                        </div>
+                        <div class="cardInfoContainer">
+                            <p class="productTitle">Title</p>
+                            <p class="productPrice">$0.00</p>
+                            <p class="productBrand">Brand</p>
+                        </div>
+                    </div>
+                    <div class="resultCard">
+                        <div class="cardImgContainer">
+                            <img class="productImg" src="../resources/images/productImg/greenSweater.png">
+                        </div>
+                        <div class="cardInfoContainer">
+                            <p class="productTitle">Title</p>
+                            <p class="productPrice">$0.00</p>
+                            <p class="productBrand">Brand</p>
+                        </div>
+                    </div>
+                    <div class="resultCard">
+                        <div class="cardImgContainer">
+                            <img class="productImg" src="../resources/images/productImg/greySweater.png">
+                        </div>
+                        <div class="cardInfoContainer">
+                            <p class="productTitle">Title</p>
+                            <p class="productPrice">$0.00</p>
+                            <p class="productBrand">Brand</p>
+                        </div>
+                    </div>
+                    <div class="resultCard">
+                        <div class="cardImgContainer">
+                            <img class="productImg" src="../resources/images/productImg/blueHoodie.png">
+                        </div>
+                        <div class="cardInfoContainer">
+                            <p class="productTitle">Title</p>
+                            <p class="productPrice">$0.00</p>
+                            <p class="productBrand">Brand</p>
+                        </div>
+                    </div>
+                    <div class="resultCard">
+                        <div class="cardImgContainer">
+                            <img class="productImg" src="../resources/images/productImg/greySweater.png">
+                        </div>
+                        <div class="cardInfoContainer">
+                            <p class="productTitle">Title</p>
+                            <p class="productPrice">$0.00</p>
+                            <p class="productBrand">Brand</p>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
 </body>
 
 

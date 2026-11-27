@@ -2,3 +2,20 @@ body{
     position: relative;
     margin:0;
 }
+
+.customScroll::-webkit-scrollbar{
+    width:10px;
+}
+.customScroll::-webkit-scrollbar-track{
+    background: cornsilk;
+}
+.customScroll::-webkit-scrollbar-thumb {
+    background: orange;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+.customScroll::-webkit-scrollbar-corner{
+  display:none;
+}

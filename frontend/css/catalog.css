@@ -1,0 +1,144 @@
+body{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+#mainContainer{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#topSection{
+    display:flex;
+    height:100px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:10px;
+}
+
+#resultsSection{
+    display:flex;
+    height:700px;
+}
+
+#searchTitle{
+    width:450px;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#searchContainer{
+    display:flex;
+    width:100%;
+    justify-content: left;
+}
+#searchBar{
+    width:50%;
+    height:30px;
+    border-style: solid;
+}
+#searchBar:focus{
+    border-color: orange;
+    border-style: solid;  
+    outline: none;
+}
+
+#filterMenu{
+    display: flex;
+    flex-direction: column;
+    /* padding-left:30px; */
+    border-right-style: solid;
+    border-color: lightgray;
+    padding-right: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#filterSectionContainer{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+.filterSection{
+    border-top-style: solid;
+    border-top-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.filterSection p{
+    font-weight: bold;
+    font-size: large;
+}
+
+#resultView{
+    width:80%;
+    min-width: 800px;
+}
+#resultViewHeader{
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    padding-left:30px;
+    padding-right:30px;
+}
+#searchQueryDisplay{
+    font-size: x-large;
+    font-weight: bold;
+}
+#priceSort{
+   height:35px; 
+   align-self: center;
+}
+
+#results{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    max-height:620px;
+    height:620px;
+    padding-left: 30px;
+    padding-right:30px;
+    padding-top:10px;
+    gap:7%;
+    overflow-x: hidden;
+}
+
+.resultCard{
+    display: flex;
+    flex-direction: column;
+    min-height:260px;
+    min-width:180px;
+    height:260px;
+    width:180px;
+    border-style: solid;
+    background-color: rgb(255, 250, 229);
+    padding:3px;
+}
+.resultCard:hover{
+    background-color: blanchedalmond;
+    transform: scale(1.01);
+}
+.cardImgContainer{
+    height:60%;
+}
+.cardInfoContainer{
+    display: flex;
+    flex-direction: column;
+    height:40%;
+    gap:20px;
+    overflow:hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.cardInfoContainer p{
+    margin: 0;
+}
+.productImg{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+
+
